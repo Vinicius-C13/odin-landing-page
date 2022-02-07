@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    font-family: Roboto, Oxygen, Ubuntu;
+}
+
+/*head da página*/
+
+.header {
+    background-color: #383c41;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    flex-wrap: wrap;
+
+}
+
+.header .logo {
+    width: 230px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 20px;
+}
+
+li {
+    width: 100px;
+}
+
+a {
+    color: #f4f6f6;
+    text-decoration: none;
+}
+
+/*Sessão principal com o h1 e a foto principal*/
+
+.section-1 {
+    background-color: #383c41;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+    padding: 80px 130px;
+    
+}
+
+.section-1 .content, .photo {
+    flex: 1;
+}
+
+.photo img {
+    width: 100%;
+}
+
+h1 {
+    color: #f4f6f6;
+    margin: 0;
+    font-size: 4em;
+}
+
+.section-1 p {
+    color: #f4f6f6;
+    margin: 1.5em 0px;
+}
+
+.section-1 button {
+    font-weight: 900;
+    background-color: #f8d305;
+    border-radius: 8px;
+    border: 1px solid #f8d305;
+    color: #f4f6f6;
+    padding: 8px 16px;
+    
+}
+
+/* Sessão dos icones */
+
+.section-2 {
+    text-align: center;
+    margin: 50px 0;
+    color: #383c41;
+}
+
+.section-2 .content {
+    display: flex;
+    gap: 50px;
+    padding: 30px 80px;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.info {
+    text-align: center;
+    width: 240px
+}
+
+.info img {
+    width: 100%;
+    border: 5px solid rgba(248, 211, 5, 0.5);
+    border-radius: 5px;
+    
+}
+
+h2 {
+    font-size: 2em;
+    color: black;
+}
+
+h3 {
+    color:black;
+}
+
+/*Sessão de depoimento*/
+
+.section-3 {
+    padding: 80px 350px;
+    background-color: #f4f6f6;
+}
+
+.section-3 .content {
+    color: #383c41;
+    font-size: 1.5em;
+    font-weight: 200;
+    font-style: italic;
+    align-self: center;
+}
+
+.autor {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+
+.section-4 .container {
+    background-color:#f8d305;
+    width: 850px;
+    border-radius: 5px;
+}
+
+.section-4 .content {
+    display: flex;
+    padding: 10px 30px;
+    
+}
+
+.section-4 .content .texto {
+    width: 70%
+}
+
+.section-4 .content{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-4 .content .button button {
+    font-weight: 900;
+    background-color: #f8d305;
+    border-radius: 8px;
+    border: 2px solid #f4f6f6;
+    color: #f4f6f6;
+    padding: 8px 16px;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+.footer {
+    background-color: #f4f6f6 ;
+    text-align: center;
+    padding: 10px;
+}
+
