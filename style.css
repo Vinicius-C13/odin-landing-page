@@ -23,11 +23,7 @@ ul {
     display: flex;
     list-style-type: none;
     padding: 0;
-    gap: 20px;
-}
-
-li {
-    width: 100px;
+    gap: 30px;
 }
 
 a {
@@ -37,7 +33,7 @@ a {
 
 /*Sessão principal com o h1 e a foto principal*/
 
-.section-1 {
+#section-1 {
     background-color: #383c41;
     display: flex;
     flex-wrap: wrap;
@@ -47,7 +43,7 @@ a {
     
 }
 
-.section-1 .content, .photo {
+#section-1 .content, .photo {
     flex: 1;
 }
 
@@ -61,12 +57,12 @@ h1 {
     font-size: 4em;
 }
 
-.section-1 p {
+#section-1 p {
     color: #f4f6f6;
     margin: 1.5em 0px;
 }
 
-.section-1 button {
+#section-1 button {
     font-weight: 900;
     background-color: #f8d305;
     border-radius: 8px;
@@ -78,13 +74,13 @@ h1 {
 
 /* Sessão dos icones */
 
-.section-2 {
+#section-2 {
     text-align: center;
     margin: 50px 0;
     color: #383c41;
 }
 
-.section-2 .content {
+#section-2 .content {
     display: flex;
     gap: 50px;
     padding: 30px 80px;
@@ -115,12 +111,12 @@ h3 {
 
 /*Sessão de depoimento*/
 
-.section-3 {
+#section-3 {
     padding: 80px 350px;
     background-color: #f4f6f6;
 }
 
-.section-3 .content {
+#section-3 .content {
     color: #383c41;
     font-size: 1.5em;
     font-weight: 200;
@@ -133,7 +129,7 @@ h3 {
     padding-right: 50px;
 }
 
-.section-4 {
+#section-4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,28 +137,28 @@ h3 {
 }
 
 
-.section-4 .container {
+#section-4 .container {
     background-color:#f8d305;
     width: 850px;
     border-radius: 5px;
 }
 
-.section-4 .content {
+#section-4 .content {
     display: flex;
     padding: 10px 30px;
     
 }
 
-.section-4 .content .texto {
+#section-4 .content .texto {
     width: 70%
 }
 
-.section-4 .content{
+#section-4 .content{
     justify-content: space-around;
     align-items: center;
 }
 
-.section-4 .content .button button {
+#section-4 .content .button button {
     font-weight: 900;
     background-color: #f8d305;
     border-radius: 8px;
